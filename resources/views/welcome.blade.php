@@ -15,15 +15,29 @@
             @vite(['resources/css/app.css', 'resources/js/app.js'])
         @endif
     </head>
-    <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-        <div class="bg-gray-50 text-black/50 dark:bg-black dark:text-white/50">
+    <body class="font-sans antialiased bg-pink-50 dark:bg-pink-900">
+        <div class="text-black/50 dark:text-white/50">
 
-                <div class="min-h-screen flex flex-col items-center justify-center">
-                    <h1 class="text-6xl font-bold text-center">kerkness</h1>
-                    <p class="text-lg text-center">Lines of code I weave</p>
-                    <p class="text-lg text-center">Comics, pizza, dreams achieved</p>
-                    <p class="text-lg text-center">Dad jokes take the lead</p>
+            <div class="min-h-screen flex flex-col items-center justify-center space-y-6">
+                <h1 class="text-6xl font-bold text-center">kerkness</h1>
+
+                    <flux:separator text="projects" />
+
+                <div class="flex flex-col justify-center items-center space-y-2">
+                    <flux:button variant="ghost" href="https://cowleyabbott.ca">
+                        cowleyabbott.ca
+                    </flux:button>
+                    <flux:button variant="ghost" href="https://mayberryfineart.com">
+                        mayberryfineart.com
+                    </flux:button>
+                    <flux:button variant="ghost" href="https://bidlots.ca">
+                        bidlots.ca
+                    </flux:button>
                 </div>
+
+            </div>
+
+
         </div>
     </body>
 </html>
