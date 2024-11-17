@@ -29,9 +29,9 @@
                     <flux:button variant="ghost" href="https://mayberryfineart.com" icon-trailing="arrow-up-right">
                         mayberryfineart.com
                     </flux:button>
-                    <flux:button variant="ghost" href="https://demo.bidlots.ca" icon-trailing="arrow-up-right">
+                    {{-- <flux:button variant="ghost" href="https://demo.bidlots.ca" icon-trailing="arrow-up-right">
                         bidlots.ca (coming soon)
-                    </flux:button>
+                    </flux:button> --}}
                 </div>
 
             </div>
