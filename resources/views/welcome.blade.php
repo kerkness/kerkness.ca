@@ -30,9 +30,9 @@
                     <flux:button variant="ghost" href="https://mayberryfineart.com">
                         mayberryfineart.com
                     </flux:button>
-                    <flux:button variant="ghost" href="https://bidlots.ca">
+                    {{-- <flux:button variant="ghost" href="https://bidlots.ca">
                         bidlots.ca
-                    </flux:button>
+                    </flux:button> --}}
                 </div>
 
             </div>
