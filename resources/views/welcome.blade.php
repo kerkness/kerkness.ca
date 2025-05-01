@@ -23,15 +23,12 @@
                     <flux:separator text="projects" />
 
                 <div class="flex flex-col justify-center items-center space-y-2">
-                    <flux:button variant="ghost" href="https://cowleyabbott.ca" icon-trailing="arrow-up-right">
-                        cowleyabbott.ca
+                    <flux:button variant="ghost" href="https://bidlots.com" icon-trailing="arrow-up-right">
+                        bidlots.com
                     </flux:button>
                     <flux:button variant="ghost" href="https://mayberryfineart.com" icon-trailing="arrow-up-right">
                         mayberryfineart.com
                     </flux:button>
-                    {{-- <flux:button variant="ghost" href="https://demo.bidlots.ca" icon-trailing="arrow-up-right">
-                        bidlots.ca (coming soon)
-                    </flux:button> --}}
                 </div>
 
             </div>
